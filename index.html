@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Virtual Pet</title>
+  <meta name="description" content="My Virtual Pet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+  integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+  crossorigin="anonymous"></script>
+  <script src="client.js"></script>
+</head>
+<body>
+  <header>
+    <h1>
+      My Virtual Pet
+    </h1>
+  </header>
+
+  <main>
+    <section class="pet-image-container">
+      <img class="pet-image" src="kingcav.jpg">
+    </section>
+    <section class="dashboard">
+      <div>Name: <strong><span class="name"></span></strong></div>
+      <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
+      <div>Happiness: <strong><span class="happiness"></span> tail wags (per minute)</strong></div>
+      <div class="button-container">
+        <button class="treat-button">
+          Treat
+        </button>
+        <button class="play-button">
+          Play
+        </button>
+        <button class="exercise-button">
+          Exercise
+        </button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
